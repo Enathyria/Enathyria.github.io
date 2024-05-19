@@ -23,11 +23,47 @@
 	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+@media only screen and (max-width: 900px) {
+	body *{
+	  background-color: lightblue;
+	}
+  }
+
 body{
 	font-family: "Philosopher";
 	margin: 0px;
 	background-color: #354389;
+}
+
+body *{
 	color: #c29919;
+}
+
+header{
+	height: 80pt;
+}
+
+header > img {
+	position: absolute;
+	left: 160px;
+	top: 8pt;
+}
+
+#headerLeft{
+	position: absolute;
+	left: 0px;
+	width: 198px;
+	background-color: #077a1e;
+	border-right: 4px solid #c29919;
+	height: 80pt;
+	line-height: 80pt;
+	text-align: center;
+	font-size: 18pt;
+}
+
+#headerLeft > a{
+	display: inline-block;
+	width: 100%;
 }
 
 h1{
@@ -36,7 +72,6 @@ h1{
 	text-align: center;
 	background-color: #354389;
 	color: #c29919;
-	background-image: url("images/Banner.svg");
 	font-family: "Quintessential";
 }
 
@@ -50,7 +85,7 @@ nav{
 	width: 198px;
 	border-right: 4px solid #c29919;
 	border-top: 1px solid #c29919;
-	height: 100vw; /* Only for demonstration */
+	height: 80vw; /* Only for demonstration */
 }
 
 nav > h2{
@@ -72,7 +107,13 @@ nav > ul{
 .content{
 	font-size: 14pt;
 	margin: auto;
-	translate: 100px 0px;
+	translate: 0px 0px;
 	width: 800px;
-	height: 200vw; /* Only for demonstration */
+	height: 100vw; /* Only for demonstration */
+}
+
+footer{
+	clear: both;
+	background-color: #077a1e;
+	border-top: 4px solid #c29919;
 }

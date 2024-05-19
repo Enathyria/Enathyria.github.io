@@ -1,0 +1,30 @@
+<svg width="80" height="80" viewBox="-34 -34 68 68" preserveAspectRatio="0 0 0 0" xmlns="http://www.w3.org/2000/svg">
+
+    <symbol id="star" width="20" height="20" viewBox="-5 -3 10 6" refX="0" refY="0">
+        <polygon fill="#c29919" points="
+        0,-3.6
+        -2.116026908,2.91246118 
+        3.423803459,-1.11246118 
+        -3.423803459,-1.11246118 
+        2.116026908,2.91246118 
+        "/>
+  </symbol>
+
+    <circle cx="0" cy="0" r="34" fill="#c29919"/>
+
+    <circle cx="0" cy="0" r="30" fill="#354389"/>
+
+    <!-- <use href="#star" x="15%" y="50%" transform="translate(-10 -10) translate(0 -17)"/>
+    <use href="#star" x="15%" y="50%" transform="translate(-10 -10) translate(-9.992349289,13.7532889)"/>
+    <use href="#star" x="15%" y="50%" transform="translate(-10 -10) translate(16.16796078,-5.253288904)"/>
+    <use href="#star" x="15%" y="50%" transform="translate(-10 -10) translate(-16.16796078,-5.253288904)"/>
+    <use href="#star" x="15%" y="50%" transform="translate(-10 -10) translate(9.992349289,13.7532889)"/> -->
+
+    <!-- Polar radius 16 -->
+    <use href="#star" x="0" y="0" transform="translate(-10 -10) translate(0 -17)"/>
+    <use href="#star" x="0" y="0" transform="translate(-10 -10) translate(-9.404564037,12.94427191)"/>
+    <use href="#star" x="0" y="0" transform="translate(-10 -10) translate(15.21690426,-4.94427191)"/>
+    <use href="#star" x="0" y="0" transform="translate(-10 -10) translate(-15.21690426,-4.94427191)"/>
+    <use href="#star" x="0" y="0" transform="translate(-10 -10) translate(9.404564037,12.94427191)"/>
+
+</svg>
