@@ -80,7 +80,7 @@ h2{
 	margin-bottom: 10px;
 }
 
-.content > h2{
+.content > div > h2{
 	font-family: 'Quintessential';
 	text-decoration: underline;
 }
@@ -91,6 +91,10 @@ h3{
 
 h4{
 	margin-bottom: 6px;
+}
+
+.content ul > li{
+	margin-bottom: 2px;
 }
 
 .content::after{
