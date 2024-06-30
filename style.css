@@ -107,6 +107,11 @@ p{
     margin-bottom: 5px;
 }
 
+.signature{
+	font-family: 'Quintessential';
+	font-style: italic;
+}
+
 footer{
     position: fixed;
     bottom: 0px;
